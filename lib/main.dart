@@ -11,9 +11,9 @@ class CheckoutApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final orderDetails = ModalRoute.of(context)?.settings.arguments as Map<String, dynamic>;
     final totalPrice = orderDetails['totalPrice'] ?? 0;
-    final totalQuantity = orderDetails['totalQuantity']?? 0;
-    final totalDiscount = orderDetails['totalDiscount']??0;
-    final totalAfterDiscount = orderDetails['totalAfterDiscount']?? 0;
+    final totalQuantity = orderDetails['totalQuantity'] ?? 0;
+    final totalDiscount = orderDetails['totalDiscount'] ?? 0;
+    final totalAfterDiscount = orderDetails['totalAfterDiscount'] ?? 0;
 
     return MaterialApp(
       home: Scaffold(
