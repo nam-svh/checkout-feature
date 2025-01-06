@@ -16,7 +16,7 @@ class CheckoutApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      routerConfig: AppRouter.router,
+      routerConfig: CheckoutRouter.router,
     );
   }
 }
