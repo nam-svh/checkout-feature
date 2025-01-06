@@ -8,8 +8,8 @@ class CheckoutRouter {
     GoRoute(
       path: '/checkout',
       builder: (context, state) {
-        final checkoutInfor = state.extra as CheckoutInfor?;
-        return CheckOutScreen(checkoutInfor: checkoutInfor ?? CheckoutInfor());
+        final checkoutInfor = state.extra as CheckoutInfor;
+        return CheckOutScreen(checkoutInfor: checkoutInfor);
       }
     ),
     GoRoute(
