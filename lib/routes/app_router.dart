@@ -3,15 +3,14 @@ import '../screens/checkout_screen.dart';
 import '../screens/not_found_screen.dart';
 
 class CheckoutRouter {
-  static final GoRouter router = GoRouter(
-    initialLocation: '/checkout',
-    errorBuilder: (context, state) => const NotFoundScreen(),
-    routes: [
-      GoRoute(
-        path: '/checkout',
-        name: 'home',
-        builder: (context, state) => const HomeScreen(),
-      ),
-    ],
-  );
+  static List<GoRoute> get routes => [
+    GoRoute(
+      path: '/checkout',
+      builder: (context, state) => const CheckOutScreen(),
+    ),
+    GoRoute(
+      path: '/not-found',
+      builder: (context, state) => const NotFoundScreen(),
+    ),
+  ];
 }
