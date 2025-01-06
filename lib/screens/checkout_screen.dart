@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/checkout_infor.dart';
+import 'package:share_models/modes/checkout_infor.dart';
 
 class CheckOutScreen extends StatelessWidget {
   final CheckoutInfor checkoutInfor;

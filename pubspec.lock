@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.19.0"
+  cupertino_icons:
+    dependency: transitive
+    description:
+      name: cupertino_icons
+      sha256: ba631d1c7f7bef6b729a622b7b752645a2d076dba9976925b8f25725a30e1ee6
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.8"
   fake_async:
     dependency: transitive
     description:
@@ -73,7 +81,7 @@ packages:
     source: sdk
     version: "0.0.0"
   go_router:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: go_router
       sha256: b465e99ce64ba75e61c8c0ce3d87b66d8ac07f0b35d0a7e0263fcfc10f99e836
@@ -152,6 +160,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  share_models:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "03b85499f292d236da92e2a4f2a8d6c51c8243b0"
+      url: "https://github.com/nam-svh/share_models.git"
+    source: git
+    version: "1.0.0+1"
   sky_engine:
     dependency: transitive
     description: flutter
