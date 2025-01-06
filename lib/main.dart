@@ -15,6 +15,11 @@ class CheckoutApp extends StatelessWidget {
     final totalDiscount = orderDetails['totalDiscount'] ?? 0;
     final totalAfterDiscount = orderDetails['totalAfterDiscount'] ?? 0;
 
+    debugPrint('Total Price: $totalPrice');
+    debugPrint('Total Quantity: $totalQuantity');
+    debugPrint('Total Discount: $totalDiscount');
+    debugPrint('Total After Discount: $totalAfterDiscount');  
+
     return MaterialApp(
       home: Scaffold(
         body: Column(
